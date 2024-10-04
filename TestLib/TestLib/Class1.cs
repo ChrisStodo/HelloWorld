@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
+﻿using Microsoft.VisualStudio.TestTools;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace TestLib
 {
-    [TestFixture]
+    [TestClass]
     public class Class1
     {
-        [Test]
+        [TestMethod]
         public void test1()
         { }
 
-        [Test]
+        [TestMethod]
         public void test2()
         { }
     }
